@@ -1,18 +1,11 @@
-[tool.poetry]
-name = "image-downloader"
+[project]
+name = "imagedownloader"
 version = "0.1.0"
-description = ""
-authors = ["ruis2615"]
-license = "MIT"
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-python-dotenv = "^1.0.1"
-requests = "^2.32.3"
-beautifulsoup4 = "^4.13.0"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "python-dotenv>=1.2.2",
+    "requests>=2.33.1",
+]
